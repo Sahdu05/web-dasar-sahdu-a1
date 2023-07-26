@@ -1,0 +1,31 @@
+.text-header {
+    text-align: center;
+    color: teal;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.text-h3 {
+    text-align: center;
+    color: brown;
+}
+
+.text-h4{
+    color: blue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+.table {
+    border:'1'
+    text-align: center;
+    border="1" style="text-align: center;">
+    font-family: sans-serif;
+    color: #2d7a47;
+}
+
+
+.table,th,td{
+    border: 1px solid #999;
+    padding: 8px 20px;
+}

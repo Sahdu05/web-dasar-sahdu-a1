@@ -1,0 +1,21 @@
+        <tr>
+            <th>ID</th>
+            <th>judul buku</th>
+            <th>Tahun terbit</th>
+            <th>penulis</th>
+            <th>penerbit</th>
+            <th>update</th>
+            <th>opsi</th>
+        </tr>
+        <?php
+        foreach (buku() as $p) : ?>
+            <tr>
+                <td><?php echo $p["id"] ?></td>
+                <td><?php echo $p["nama_prodi"] ?></td>
+                <td>
+                    <a href="edit.php">Edit</a>
+                    <a href="hapus.php?id=<?= $p["id"]; ?>">Hapus</a>
+                </td>
+            </tr>
+        <?php endforeach;
+        ?>
